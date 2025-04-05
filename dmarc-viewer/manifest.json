@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "DMARC viewer",
+    "description": "This plugin for the Thunderbird is designed to visualize the DMARC information from the email header.",
+    "version": "1.0",
+    "author": "core@zsc.jp",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "dmarc-viewer@zsc.jp",
+            "strict_min_version": "128.0"
+        }
+    },
+    "icons": {
+        "64": "images/icon-64px.png",
+        "32": "images/icon-32px.png",
+        "16": "images/icon-16px.png"
+    },
+    "browser_action": {
+        "default_popup": "popup/dmarc-viewer.html",
+        "default_title": "DMARC viewer",
+        "default_icon": "images/icon-32px.png"
+    }
+}
