@@ -1,0 +1,33 @@
+[
+  {
+    "namespace": "customColumn",
+    "functions": [
+      {
+        "name": "addColumn",
+        "type": "function",
+        "async": true,
+        "parameters": [
+          {
+            "type": "string",
+            "name": "id"
+          },
+          {
+            "type": "string",
+            "name": "name"
+          }
+        ]
+      },
+      {
+        "name": "removeColumn",
+        "type": "function",
+        "async": true,
+        "parameters": [
+          {
+            "type": "string",
+            "name": "id"
+          }
+        ]
+      }
+    ]
+  }
+]
